@@ -76,10 +76,16 @@ func BuildAlertsDocs(alerts []promv1.Rule) string {
 func buildAlertsDocs(alerts []promv1.Rule) []alertDocs {
 	alertsDocs := make([]alertDocs, len(alerts))
 	for i, alert := range alerts {
+		var forString string
+
+		if alert.For != nil {
+			forString = string(*alert.For)
+		}
+
 		alertsDocs[i] = alertDocs{
 			Name:        alert.Alert,
 			Expr:        alert.Expr.String(),
-			For:         string(alert.For),
+			For:         forString,
 			Annotations: alert.Annotations,
 			Labels:      alert.Labels,
 		}
