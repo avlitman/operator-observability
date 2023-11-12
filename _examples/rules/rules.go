@@ -3,7 +3,7 @@ package rules
 import (
 	promv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
-	"github.com/machadovilaca/operator-observability/pkg/operatorrules"
+	"github.com/avlitman/operator-observability/pkg/operatorrules"
 )
 
 const (

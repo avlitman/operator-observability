@@ -1,4 +1,4 @@
-module github.com/machadovilaca/operator-observability
+module github.com/avlitman/operator-observability
 
 go 1.20
 

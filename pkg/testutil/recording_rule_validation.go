@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/machadovilaca/operator-observability/pkg/operatorrules"
+	"github.com/avlitman/operator-observability/pkg/operatorrules"
 )
 
 type RecordRuleValidation = func(rr *operatorrules.RecordingRule) []Problem

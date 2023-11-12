@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/machadovilaca/operator-observability/examples/rules"
-	"github.com/machadovilaca/operator-observability/pkg/testutil"
+	"github.com/avlitman/operator-observability/examples/rules"
+	"github.com/avlitman/operator-observability/pkg/testutil"
 )
 
 func main() {

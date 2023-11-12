@@ -18,7 +18,7 @@ these utilities and wrappers.
 
 Or check the step-by-step tutorial on how to use this package to instrument a
 simple operator-sdk operator:
-https://github.com/machadovilaca/operator-observability-tutorial.
+https://github.com/avlitman/operator-observability-tutorial.
 
 ## Design
 
