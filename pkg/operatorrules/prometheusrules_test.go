@@ -1,14 +1,11 @@
 package operatorrules
 
 import (
-	. "github.com/onsi/ginkgo/v2"
-	. "github.com/onsi/gomega"
-
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	promv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
-	"github.com/machadovilaca/operator-observability/pkg/operatormetrics"
+	"github.com/avlitman/operator-observability/pkg/operatormetrics"
 )
 
 var _ = Describe("PrometheusRules", func() {

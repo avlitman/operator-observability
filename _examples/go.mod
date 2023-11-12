@@ -1,9 +1,9 @@
-module github.com/machadovilaca/operator-observability/examples
+module github.com/avlitman/operator-observability/examples
 
 go 1.20
 
 require (
-	github.com/machadovilaca/operator-observability v0.0.0-00010101000000-000000000000
+	github.com/avlitman/operator-observability v0.0.0-00010101000000-000000000000
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.64.1
 	k8s.io/apimachinery v0.26.1
 	sigs.k8s.io/controller-runtime v0.14.4
@@ -61,4 +61,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/machadovilaca/operator-observability => ../
+replace github.com/avlitman/operator-observability => ../

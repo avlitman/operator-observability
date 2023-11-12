@@ -3,7 +3,7 @@ package metrics
 import (
 	runtimemetrics "sigs.k8s.io/controller-runtime/pkg/metrics"
 
-	"github.com/machadovilaca/operator-observability/pkg/operatormetrics"
+	"github.com/avlitman/operator-observability/pkg/operatormetrics"
 )
 
 const metricPrefix = "guestbook_operator_"
